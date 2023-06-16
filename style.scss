@@ -13,7 +13,7 @@
     transition: 0.3s all;
     overflow: hidden;
     box-shadow: none;
-    &:hover {
+    .no-touch &:hover {
         transform: translateY(10%);
     }
 }
@@ -227,7 +227,6 @@ body {
             gap: 20px;
             .suitable-item {
                 width: 388px;
-                height: 140px;
                 background-color: #333142;
                 padding: 20px;
                 box-shadow: 0px 82px 33px rgba(15, 13, 28, 0.01),
@@ -243,6 +242,7 @@ body {
                     > p {
                         @include fonts.t1();
                         color: #4ebd09;
+                        text-align: left;
                     }
                 }
                 > div:nth-child(2) {
@@ -315,7 +315,10 @@ body {
         }
     }
     .numbers-section {
-        padding-bottom: 104px;
+        // padding-bottom: 104px;
+        .numbers-wrapper {
+            margin-bottom: 104px;
+        }
         .numbers-header {
             margin-left: 170px;
             margin-right: 170px;
@@ -769,7 +772,10 @@ body {
             }
         }
         .numbers-section {
-            padding-bottom: 48px;
+            // padding-bottom: 48px;
+            .numbers-wrapper {
+                margin-bottom: 48px;
+            }
             .numbers-row {
                 flex-direction: column;
                 gap: 24px;
@@ -946,9 +952,11 @@ body {
                         > p {
                             @include fonts.b1();
                             color: #4ebd09;
+                            text-align: left;
                         }
                     }
                     > div:nth-child(2) {
+                        @include fonts.t4();
                         font-weight: 400;
                         font-size: 14px;
                         line-height: 145%;

@@ -142,7 +142,7 @@ body {
   box-shadow: none;
   color: #0d1a30;
 }
-.main .introduce-section .introduce-wrapper .introduce-content button:hover {
+.no-touch .main .introduce-section .introduce-wrapper .introduce-content button:hover {
   transform: translateY(10%);
 }
 .main .introduce-section .introduce-wrapper .introduce-img {
@@ -289,7 +289,7 @@ body {
   box-shadow: none;
   color: #ffffff;
 }
-.main .who-is-section .who-is-tablet-btn:hover {
+.no-touch .main .who-is-section .who-is-tablet-btn:hover {
   transform: translateY(10%);
 }
 .main .suitable-section {
@@ -317,7 +317,7 @@ body {
   overflow: hidden;
   box-shadow: none;
 }
-.main .suitable-section .suitable-section-content .suitable-btn:hover {
+.no-touch .main .suitable-section .suitable-section-content .suitable-btn:hover {
   transform: translateY(10%);
 }
 .main .suitable-section .suitable-section-header {
@@ -335,7 +335,6 @@ body {
 }
 .main .suitable-section .suitable-wrapper .suitable-item {
   width: 388px;
-  height: 140px;
   background-color: #333142;
   padding: 20px;
   box-shadow: 0px 82px 33px rgba(15, 13, 28, 0.01), 0px 46px 28px rgba(15, 13, 28, 0.05), 0px 21px 21px rgba(15, 13, 28, 0.09), 0px 5px 11px rgba(15, 13, 28, 0.1), 0px 0px 0px rgba(15, 13, 28, 0.1);
@@ -352,6 +351,7 @@ body {
   font-size: 18px;
   line-height: 24px;
   color: #4ebd09;
+  text-align: left;
 }
 .main .suitable-section .suitable-wrapper .suitable-item > div:nth-child(2) {
   font-family: "Exo 2";
@@ -427,8 +427,8 @@ body {
   line-height: 24px;
   margin-bottom: 24px;
 }
-.main .numbers-section {
-  padding-bottom: 104px;
+.main .numbers-section .numbers-wrapper {
+  margin-bottom: 104px;
 }
 .main .numbers-section .numbers-header {
   margin-left: 170px;
@@ -518,7 +518,7 @@ body {
   box-shadow: none;
   color: #0d1a30;
 }
-.main .sign-up-section button:hover {
+.no-touch .main .sign-up-section button:hover {
   transform: translateY(10%);
 }
 .main .benefits-section {
@@ -629,7 +629,7 @@ body {
   margin-top: 24px;
   color: #ffffff;
 }
-.main .form-section .form-section-wrapper .form button:hover {
+.no-touch .main .form-section .form-section-wrapper .form button:hover {
   transform: translateY(10%);
 }
 .main .review-section {
@@ -741,7 +741,7 @@ body {
   box-shadow: none;
   color: white;
 }
-.main .review-section .review-section-btn:hover {
+.no-touch .main .review-section .review-section-btn:hover {
   transform: translateY(10%);
 }
 
@@ -776,7 +776,7 @@ body {
   box-shadow: none;
   margin-bottom: 32px;
 }
-.footer .footer-btn:hover {
+.no-touch .footer .footer-btn:hover {
   transform: translateY(10%);
 }
 .footer .footer-buttons button {
@@ -944,7 +944,7 @@ body {
     overflow: hidden;
     box-shadow: none;
   }
-  .main .suitable-section .suitable-section-content .suitable-btn:hover {
+  .no-touch .main .suitable-section .suitable-section-content .suitable-btn:hover {
     transform: translateY(10%);
   }
   .main .suitable-section .suitable-slider {
@@ -963,8 +963,8 @@ body {
   .main .video-section .video-section-wrapper .video-section-text {
     width: 100%;
   }
-  .main .numbers-section {
-    padding-bottom: 48px;
+  .main .numbers-section .numbers-wrapper {
+    margin-bottom: 48px;
   }
   .main .numbers-section .numbers-row {
     flex-direction: column;
@@ -1123,8 +1123,13 @@ body {
     font-size: 18px;
     line-height: 26px;
     color: #4ebd09;
+    text-align: left;
   }
   .main .suitable-section .suitable-slider .suitable-item > div:nth-child(2) {
+    font-family: "Exo 2";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 124%;
     font-weight: 400;
     font-size: 14px;
     line-height: 145%;
