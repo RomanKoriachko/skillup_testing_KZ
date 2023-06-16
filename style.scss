@@ -315,10 +315,7 @@ body {
         }
     }
     .numbers-section {
-        // padding-bottom: 104px;
-        .numbers-wrapper {
-            margin-bottom: 104px;
-        }
+        padding-bottom: 104px;
         .numbers-header {
             margin-left: 170px;
             margin-right: 170px;
@@ -355,9 +352,6 @@ body {
                 }
                 .numbers-comparison-text1 {
                     @include fonts.t1();
-                }
-                .numbers-comparsion-long-text {
-                    margin: 10px 0px;
                 }
                 .numbers-comparison-text2 {
                     @include fonts.t2();
@@ -772,10 +766,7 @@ body {
             }
         }
         .numbers-section {
-            // padding-bottom: 48px;
-            .numbers-wrapper {
-                margin-bottom: 48px;
-            }
+            padding-bottom: 48px;
             .numbers-row {
                 flex-direction: column;
                 gap: 24px;

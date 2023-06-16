@@ -427,8 +427,8 @@ body {
   line-height: 24px;
   margin-bottom: 24px;
 }
-.main .numbers-section .numbers-wrapper {
-  margin-bottom: 104px;
+.main .numbers-section {
+  padding-bottom: 104px;
 }
 .main .numbers-section .numbers-header {
   margin-left: 170px;
@@ -473,9 +473,6 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-}
-.main .numbers-section .numbers-comparison .numbers-comparison-item .numbers-comparsion-long-text {
-  margin: 10px 0px;
 }
 .main .numbers-section .numbers-comparison .numbers-comparison-item .numbers-comparison-text2 {
   font-family: "Exo 2";
@@ -963,8 +960,8 @@ body {
   .main .video-section .video-section-wrapper .video-section-text {
     width: 100%;
   }
-  .main .numbers-section .numbers-wrapper {
-    margin-bottom: 48px;
+  .main .numbers-section {
+    padding-bottom: 48px;
   }
   .main .numbers-section .numbers-row {
     flex-direction: column;
