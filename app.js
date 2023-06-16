@@ -110,25 +110,25 @@ window.addEventListener("scroll", function () {
 });
 
 // Slider
-// $(document).ready(function () {
-//   $(".slider").slick({
-//     arrows: false,
-//     infinite: true,
-//     dots: false,
-//     variableWidth: true,
-//     slidesToShow: 3,
-//     centerMode: true,
-//     centerPadding: "60px",
-//     responsive: [
-//       {
-//         breakpoint: 576,
-//         settings: {
-//           centerMode: false,
-//         },
-//       },
-//     ],
-//   });
-// });
+
+$(document).ready(function () {
+    $(".suitable-slider").slick({
+        dots: true,
+        centerMode: true,
+        arrows: false,
+        infinite: false,
+        variableWidth: true,
+    });
+});
+
+$(document).ready(function () {
+    $(".suitable-slider-mobile").slick({
+        dots: true,
+        arrows: false,
+        infinite: false,
+        variableWidth: true,
+    });
+});
 
 $(document).ready(function () {
     $(".slider-video").slick({
