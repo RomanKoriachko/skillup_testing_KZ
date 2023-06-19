@@ -210,6 +210,7 @@ body {
         .suitable-section-content {
             text-align: center;
             .suitable-btn {
+                color: #0d1a30;
                 margin-top: 50px;
                 @include mainButton();
             }
@@ -285,7 +286,7 @@ body {
         color: #ffffff;
         text-align: center;
         @include fonts.h2();
-        padding: 48px 0px;
+        padding-bottom: 48px;
     }
     .video-section {
         .video {
