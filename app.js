@@ -118,37 +118,10 @@ $(document).ready(function () {
         arrows: false,
         infinite: false,
         variableWidth: true,
+        autoplay: true,
     });
 });
 
-$(document).ready(function () {
-    $(".suitable-slider-mobile").slick({
-        dots: true,
-        arrows: false,
-        infinite: false,
-        variableWidth: true,
-    });
-});
-
-$(document).ready(function () {
-    $(".slider-video").slick({
-        arrows: false,
-        infinite: true,
-        dots: false,
-        variableWidth: true,
-        slidesToShow: 3,
-        centerMode: true,
-        centerPadding: "60px",
-        responsive: [
-            {
-                breakpoint: 576,
-                settings: {
-                    centerMode: false,
-                },
-            },
-        ],
-    });
-});
 $(document).ready(function () {
     $(".slider-text").slick({
         arrows: false,
@@ -168,26 +141,6 @@ $(document).ready(function () {
                 },
             },
         ],
-    });
-});
-$(document).ready(function () {
-    $(".companies-slider").slick({
-        arrows: false,
-        infinite: true,
-        centerMode: false,
-        variableWidth: true,
-        autoplay: true,
-        autoplaySpeed: 1000,
-    });
-});
-$(document).ready(function () {
-    $(".companies-tablet-slider").slick({
-        arrows: false,
-        infinite: true,
-        centerMode: true,
-        variableWidth: true,
-        autoplay: true,
-        autoplaySpeed: 1000,
     });
 });
 
