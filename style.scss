@@ -59,23 +59,24 @@ body {
             align-items: center;
             gap: 42px;
             .introduce-content {
-                > p:nth-child(1) {
-                    @include fonts.p2();
+                .green-text {
+                    color: #4ebd09;
+                    text-transform: uppercase;
+                    @include fonts.h1();
                 }
-                > p:nth-child(2) {
+                .introduce-header {
+                    @include fonts.p2();
+                    padding: 10px 0px;
+                }
+                .introduce-title {
                     @include fonts.h1();
                     margin-bottom: 48px;
                 }
-                > p:nth-child(3),
-                > p:nth-child(4) {
+                .introduce-subtitle,
+                .introduce-date {
                     @include fonts.p2();
                 }
-                > p:nth-child(4) {
-                    margin-bottom: 48px;
-                }
-                > p:nth-child(5) {
-                    @include fonts.p2();
-                    color: #4ebd09;
+                .introduce-date {
                     margin-bottom: 48px;
                 }
                 button {
@@ -660,21 +661,16 @@ body {
             }
             .introduce-wrapper {
                 .introduce-content {
-                    margin-right: 100px;
-                    > p:nth-child(2) {
+                    margin-right: 35px;
+                    .introduce-title {
                         margin-bottom: 32px;
                     }
-                    > p:nth-child(3) {
+                    .introduce-subtitle {
                         margin-bottom: 20px;
+                        margin-right: 100px;
                     }
-                    > p:nth-child(4) {
+                    .introduce-date {
                         display: none;
-                    }
-                    > p:nth-child(4) {
-                        margin-bottom: 32px;
-                    }
-                    > p:nth-child(5) {
-                        margin-right: 0px;
                         margin-bottom: 32px;
                     }
                 }
@@ -863,16 +859,19 @@ body {
             .introduce-wrapper {
                 .introduce-content {
                     margin-right: 0px;
-                    > p:nth-child(2) {
+                    .green-text {
+                        @include fonts.h2();
+                        font-size: 26px;
+                    }
+                    .introduce-title {
                         @include fonts.h2();
                         font-size: 34px;
                         margin-bottom: 32px;
                     }
-                    > p:nth-child(4) {
-                        margin-bottom: 32px;
-                    }
-                    > p:nth-child(5) {
+                    .introduce-subtitle {
                         margin-right: 0px;
+                    }
+                    .introduce-date {
                         margin-bottom: 32px;
                     }
                     button {
