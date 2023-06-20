@@ -125,6 +125,7 @@ body {
 }
 .main .introduce-section .introduce-wrapper .introduce-content .introduce-date {
   margin-bottom: 48px;
+  margin-top: 28px;
 }
 .main .introduce-section .introduce-wrapper .introduce-content button {
   width: 380px;
@@ -862,7 +863,6 @@ body {
     margin-right: 100px;
   }
   .main .introduce-section .introduce-wrapper .introduce-content .introduce-date {
-    display: none;
     margin-bottom: 32px;
   }
   .main .introduce-section .introduce-wrapper .introduce-img {

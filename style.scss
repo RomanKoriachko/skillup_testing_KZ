@@ -78,6 +78,7 @@ body {
                 }
                 .introduce-date {
                     margin-bottom: 48px;
+                    margin-top: 28px;
                 }
                 button {
                     @include mainButton();
@@ -670,7 +671,7 @@ body {
                         margin-right: 100px;
                     }
                     .introduce-date {
-                        display: none;
+                        // display: none;
                         margin-bottom: 32px;
                     }
                 }
